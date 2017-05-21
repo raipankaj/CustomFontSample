@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CustomFontSample</string>
+
+    <!--Fonts-->
+    <string name="montserrat_subrayada_regular">montserrat_subrayada_regular.ttf</string>
+    <string name="indie_flower">indie_flower.ttf</string>
+    <string name="macondo_regular">macondo_regular.ttf</string>
+    <string name="hello_this_is_usage_test_for_custom_font">Hello this is usage test for custom font</string>
+</resources>

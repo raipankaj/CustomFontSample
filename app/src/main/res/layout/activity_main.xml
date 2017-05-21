@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fonts.sample.com.customfontsample.MainActivity">
+
+    <fonts.sample.com.customfontsample.customfonts.CustomTextView
+        android:id="@+id/tv_custom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/hello_this_is_usage_test_for_custom_font"
+        app:fontName="@string/montserrat_subrayada_regular"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fonts.sample.com.customfontsample.customfonts.CustomEditText
+        android:id="@+id/et_custom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/hello_this_is_usage_test_for_custom_font"
+        app:fontName="@string/indie_flower"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_custom_text" />
+
+    <fonts.sample.com.customfontsample.customfonts.CustomButton
+        android:id="@+id/bt_custom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/hello_this_is_usage_test_for_custom_font"
+        app:fontName="@string/macondo_regular"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_custom_text" />
+
+</android.support.constraint.ConstraintLayout>
